@@ -28,3 +28,12 @@ strong{
   right:0;
   bottom:0;
 }
+.ft_logo{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  height:80px;
+  width:80px;
+  background-image:url('flip_tables_logo.svg');
+  background-size:80px;
+}
