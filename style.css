@@ -12,8 +12,8 @@ body{
   top:50%;
   left:50%;
   width:530px;
-  height:300px;
-  margin:-150px 0 0 -265px;
+  height:220px;
+  margin:-110px 0 0 -265px;
   text-align:center;
 }
 strong{
@@ -29,11 +29,16 @@ strong{
   bottom:0;
 }
 .ft_logo{
+  display:block;
   position:fixed;
   bottom:20px;
   right:20px;
-  height:80px;
+  height:61px;
   width:80px;
   background-image:url('flip_tables_logo.svg');
   background-size:80px;
+  opacity:0.1;
+}
+.ft_logo:hover{
+  opacity:1;
 }
