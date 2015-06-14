@@ -2,6 +2,7 @@ body{
   color:#fff;
   font-family:'Lato';
   font-weight:100;
+  line-height:22px;
   font-size:17px;
 }
 .image_logo{
@@ -12,8 +13,8 @@ body{
   top:50%;
   left:50%;
   width:530px;
-  height:220px;
-  margin:-110px 0 0 -265px;
+  height:230px;
+  margin:-115px 0 0 -265px;
   text-align:center;
 }
 strong{
@@ -38,6 +39,7 @@ strong{
   background-image:url('flip_tables_logo.svg');
   background-size:80px;
   opacity:0.1;
+  transition:all 0.2s ease-in-out;
 }
 .ft_logo:hover{
   opacity:1;
